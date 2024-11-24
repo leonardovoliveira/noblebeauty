@@ -1,0 +1,66 @@
+@import url('/styles/style.css');
+
+/*
+   CSS CARROCEL
+*/
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.titulo_secao{
+    font-family: var(--fontPrincipal);
+    margin-left: 1rem;
+}
+
+.titulo_secaoTelaP{
+    display: none;
+}
+
+.card__projetos{
+    font-family: var(--fontPrincipal);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 3rem;
+}
+
+.lista__projetos{
+    justify-content: center;
+    border: whitesmoke solid 0.1rem;
+    height: 25.5rem;
+    width: 16.7rem;
+}
+
+.previa_projeto{
+    width: 16.5rem;
+	height: 25rem;
+}
+
+.buttonLink{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.link_previa{
+    border: 0.1rem solid whitesmoke;
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    font-size: 0.7rem;
+}
+
+.link_previa:hover{
+    background-color: whitesmoke;
+    border: 0.1rem solid whitesmoke;
+    border-radius: 2rem;
+    color: black;
+
+}
+
+.telaPequena{
+    display: none;
+}
